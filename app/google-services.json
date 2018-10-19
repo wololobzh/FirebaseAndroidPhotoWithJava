@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "44892027020",
+    "firebase_url": "https://androidphotowithjava.firebaseio.com",
+    "project_id": "androidphotowithjava",
+    "storage_bucket": "androidphotowithjava.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44892027020:android:341bc5020fc4deab",
+        "android_client_info": {
+          "package_name": "fr.acos.androidphotowithjava"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44892027020-cikuspeu3i9h8v3id97pq1gq5gpdc114.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.acos.androidphotowithjava",
+            "certificate_hash": "8b6a223718298f62fd095ef709ea6fbf4aac2c04"
+          }
+        },
+        {
+          "client_id": "44892027020-718jql018g55vprtjklcvifd3nf605ns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGyBoJ9pEL8RXBDLpFU736u6JckAxp14c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44892027020-718jql018g55vprtjklcvifd3nf605ns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fr.acos.androidphotowithjava.MainActivity">
+
+    <Button
+        android:id="@+id/btTakePicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prendre une photo"
+        android:onClick="prendrePhoto"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/ivPhotoPrise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btTakePicture"
+        />
+
+    <Button
+        android:id="@+id/btUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:onClick="uploadImage"
+        app:layout_constraintTop_toBottomOf="@id/ivPhotoPrise"
+        />
+
+    <Button
+        android:id="@+id/btDownload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="downloadImage"
+        android:text="Download"
+        app:layout_constraintTop_toBottomOf="@id/btUpload"
+        />
+
+    <ImageView
+        android:id="@+id/ivPhotoTelechargee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btDownload"
+
+        />
+
+</android.support.constraint.ConstraintLayout>
