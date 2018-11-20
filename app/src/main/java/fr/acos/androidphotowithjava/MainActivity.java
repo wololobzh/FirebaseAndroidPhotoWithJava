@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                         downloadUrl = taskSnapshot.getDownloadUrl();
-                        Log.i("THIERRY", downloadUrl.toString());
+                        Log.i("XXX", downloadUrl.toString());
                     }
                 })
                 .addOnFailureListener(new OnFailureListener() {
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
                     ImageView iv = findViewById(R.id.ivPhotoTelechargee);
                     try {
                         iv.setImageBitmap(BitmapFactory.decodeStream(new FileInputStream(localFile)));
-                        Log.i("THIERRY", "Chargement OK");
+                        Log.i("XXX", "Chargement OK");
                     } catch (FileNotFoundException e) {
                         e.printStackTrace();
                     }
@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
             }).addOnFailureListener(new OnFailureListener() {
                 @Override
                 public void onFailure(@NonNull Exception exception) {
-                    Log.e("THIERRY", "Chargement KO : " + exception.toString());
+                    Log.e("XXX", "Chargement KO : " + exception.toString());
                 }
             });
         } catch (IOException e) {
